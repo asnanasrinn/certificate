@@ -1,0 +1,27 @@
+/* Header start */
+
+#header{
+    background-color: white;
+    color: black;
+}
+#header .navbar-brand h2{
+    font-size: 22px;
+    font-weight: 700;
+    color: #495057;
+    margin-left: -180px;
+}
+#header .menu-bar{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#header .search-bar{
+    margin-left: 20px;
+    border-radius: 50px;
+    background-color: rgb(243 243 249);
+    border: none;
+    color: rgb(157 160 176);
+}
+
+ /* Header end  */
+
+

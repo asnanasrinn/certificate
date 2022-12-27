@@ -1,0 +1,115 @@
+:root{
+    --primary-color: rgb(59 77 161);
+    --secondary-color: #fff;
+    --dark-color: black;
+    --dark-text-color: rgb(73 80 87);
+    --light-color: rgb(121 125 145);
+    --light-box-color: rgb(243 243 243);
+  }
+  /* body{
+      background-color: var(--primary-color);
+      min-height: 100vh;
+  } */
+  #navbar {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  #navbar .navbar-brand h2{
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--secondary-color);
+    margin-top: 10px;
+  }
+  #navbar .navbar-nav a{
+    color: var(--secondary-color);
+    font-weight: 300;
+    font-size: 16px;
+  }
+  #navbar button{
+    background-color: var(--primary-color);
+    border-color:  rgb(52 195 143);
+  }
+  #navbar .sign-in-button{
+    color: rgb(52 195 143);
+  }
+  #banner{
+    background-color: var(--primary-color);
+    border-top: 2px solid #4e5faa;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+  }
+  #banner .text{
+    color: var(--secondary-color);
+    margin-top: 225px;
+    text-align: left;
+  }
+  #banner .text h1{
+    font-weight: 550;
+    font-size: 42px;
+    line-height: 65px;
+  }
+  #banner .text p{
+    font-size: 16px;
+    color: #97a0cd;
+    margin-top: 100px;
+    font-weight: 300;
+  }
+  #banner .text .login-button{
+    padding: 8px 50px;
+    font-size: 16px;
+    background-color: #f1b44c;
+    border: none;
+  }
+  #banner img{
+    margin-top: 50px;
+    height: 100%;
+    width: 150%;
+    margin-left: 50px;
+  }
+  #footer{
+    background-color: var(--secondary-color);
+    list-style: none;
+    text-align: left;
+  }
+  #footer h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 100px;
+  }
+  #footer .para1{
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  #footer .para2{
+    font-size: 14px;
+    margin-top: -15px;
+    margin-bottom: 150px;
+    line-height: 25px;
+  }
+  #footer li h3{
+    margin-top: 90px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  #footer .list1{
+    color: var(--light-color);
+    font-size: 13px;
+    margin-top: 12px;
+    line-height: 30px;
+  }
+  #footer .icon1{
+    padding: 8px;
+    font-size: 25px;
+    color: #556ee5;
+  }
+  #footer .icon2{
+    padding: 8px;
+    font-size: 25px;
+    color: #50a5f1;
+  }
+  #footer .icon3{
+    padding: 8px;
+    font-size: 25px;
+    color: #f46a6a;
+  }

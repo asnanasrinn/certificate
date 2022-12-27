@@ -1,0 +1,42 @@
+
+ /* Sidebar start  */
+ #sidebar{
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 250px;
+    min-height: 100vh;
+    background-color: white;
+    font-weight: 400;
+ }
+#sidebar .title1{
+    display: inline-flex;
+}
+#sidebar .icon1{
+    font-size: 30px;
+    color: black;
+}
+#sidebar .title{
+    display: inline-flex;
+    list-style: none;
+}
+#sidebar .heading{
+    padding-left: 14px;
+    padding-top: 14px;
+    font-size: 16px;
+}
+#sidebar .title{
+    color: rgb(121 125 145);
+    font-weight: 300;
+}
+#sidebar .icon{
+    font-size: 26px;
+}
+#sidebar h5{
+    font-weight: 400;
+    font-size: 17px;
+}
+#sidebar .links{
+    text-decoration: none;
+    color: rgb(121 125 145);
+}
+/* Sidebar end */
